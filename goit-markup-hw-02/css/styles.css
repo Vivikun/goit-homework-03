@@ -1,0 +1,264 @@
+/* WebStudio */
+body {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+:root {
+  --color: #2196F3;
+  --color-back: #757575;
+  --color-text: #ffffff;
+  --color-box: #2F303A;
+  --color-body: #212121;
+  --color-image: #F5F4FA;
+  --color-mine: #E5E5E5;
+  --color-mail: rgba(255, 255, 255, 0.6);
+  --color-line: rgba(236, 236, 236, 1);
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 188% */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--color);
+  color: var(--color-text);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color);
+  color: var(--color-body);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button-1 {
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--color-image);
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: var(--color);
+  color: var(--color-text);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color);
+}
+
+.text-1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+
+.basic-text-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+  color: var(--color-back);
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.basic-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-back);
+}
+
+.mail-1 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-mail);
+}
+
+.link-0 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+.link-0:hover,
+.link-0:focus {
+  color: var(--color);
+}
+
+.mail-1:hover,
+.mail-1:focus {
+  color: var(--color);
+}
+
+.web {
+  color: var(--color);
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--color);
+}
+
+.logo-0 {
+  font-family: 'Raleway';
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+.logo-0:hover,
+.logo-0:focus {
+  color: var(--color);
+}
+
+.mail {
+  text-decoration: none;
+  color: var(--color-back);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--color);
+}
+
+.box-1 {
+  background-color: var(--color-box);
+}
+
+.box-2 {
+  background-color: var(--color-image);
+}
+
+.box-3 {
+  background-color: var(--color-box);
+}
+
+.headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.headline-2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.headline-3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.Lorem-ipsum-1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.Lorem-ipsum-2 {
+  color: var(--color-back);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5px;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.nickname {
+  color: var(--color-back);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
