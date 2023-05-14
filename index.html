@@ -2,6 +2,7 @@
 <html lang="pl">
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,27 +14,28 @@
   <title>Moja praca</title>
 </head>
 
-<body>
+<body class="container">
   <header class="box">
     <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
     <nav>
-      <ul class="list">
+      <ul class="links">
         <li><a class="link" href="./index.html">Agencja</a></li>
         <li><a class="link" href="./goit-markup-hw-02/portfolio.html">Portfolio</a></li>
         <li><a class="link" href="">Kontakt</a></li>
       </ul>
     </nav>
-    <ul class="list">
-      <li><a class="mail" href="info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="mail" href="+48111111111">+48 111 111 111</a></li>
+    <ul class="mails">
+      <li><a class="mail mail-01" href="info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="mail mail-02" href="+48111111111">+48 111 111 111</a></li>
     </ul>
   </header>
   <main>
     <section class="box-1">
-      <h1 class="headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button class="button" type="button">Zamów usługę</button>
+        <ul class="headline-button">
+          <li><h1 class="headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1></li>
+          <li><button class="button" type="button">Zamów usługę</button></li>
+        </ul>
     </section>
-    <div class="box-4">
       <section>
         <ul class="list">
           <li>
@@ -68,7 +70,6 @@
               height="274"></li>
         </ul>
       </section>
-    </div>
     <section class="box-2">
       <h2 class="headline-3">Nasz zespół</h2>
       <ul class="list">
