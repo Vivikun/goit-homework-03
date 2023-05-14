@@ -3,7 +3,7 @@ body {
   color: #212121;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-}moja
+}
 :root {
   --color: rgba(33, 150, 243, 1);
   --color-back: rgba(117, 117, 117, 1);
@@ -26,8 +26,16 @@ section{
     height: 2349px;
 }
 
-.list {
+.list-01{
+  display: flex;
   list-style: none;
+}
+.box-3{
+  position: absolute;
+  width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
 }
 
 .button {
@@ -241,12 +249,28 @@ width: 200px;
   color: var(--color);
 }
 
-.box-2 {
-  background-color: var(--color-box);
+.box-4 {
+  background-color: var(--color-image);
+    position: absolute;
+      width: 1600px;
+      height: 648px;
+      top: 1449px;
+  justify-content: center;
+}
+.images{
+  display: flex;
+  list-style: none;
+    width: 1170px;
+    height: 368px;
+    align-items: center;
 }
 
-.box-3 {
+.box-5 {
   background-color: var(--color-box);
+  position: absolute;
+    width: 1600px;
+    height: 252px;
+    top: 2097px;
 }
 
 .box-1 {
@@ -298,20 +322,47 @@ width: 200px;
   letter-spacing: 0.03em;
 }
 
+.list {
+  width: 1170px;
+  height: 101px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.list-02 {
+  position: absolute;
+  left: 215px;
+  top: 774px;
+  width: 1170px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+}
+
 .Lorem-ipsum-1 {
+  width: 270px;
+    height: 16px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .Lorem-ipsum-2 {
+  width: 270px;
+    height: 75px;
   color: var(--color-back);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 
 .name {
