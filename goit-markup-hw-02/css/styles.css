@@ -29,13 +29,44 @@ section{
 .list-01{
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  padding: 0;
+
 }
-.box-3{
+
+.headline-2 {
+  width: 352px;
+    height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 0;
+}
+.image-1{
+  width: 370px;
+    height: 294px;
+}
+.image-2{
+width: 370px;
+  height: 294px;
+}
+.image-3{
+  width: 370px;
+    height: 294px;
+}
+
+.box-3 {
   position: absolute;
   width: 1170px;
-height: 386px;
-left: 215px;
-top: 969px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
@@ -304,14 +335,6 @@ width: 200px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text);
-}
-
-.headline-2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .headline-3 {
