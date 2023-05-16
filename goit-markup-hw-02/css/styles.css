@@ -7,14 +7,15 @@ body {
 :root {
   --color: rgba(33, 150, 243, 1);
   --color-back: rgba(117, 117, 117, 1);
-  --color-text: rgba(255, 255, 255, 1);
+  --color-text: rgb(255, 255, 255);
   --color-box: rgba(47, 48, 58, 1);
   --color-body: rgba(33, 33, 33, 1);
   --color-image: rgb(245, 244, 250, 1);
-  --color-mine: rgb(229, 229, 229);
+  --color-mine: rgb(230, 230, 230);
   --color-mail: rgba(255, 255, 255, 0.6);
-  --color-line: rgba(236, 236, 236, 1);
+  --color-line: rgb(236, 236, 236);
   --color-none: rgba(0, 0, 0, 1);
+  --color-border: rgb(238, 238, 238);
 }
 section{
   padding-bottom: 94px;
@@ -23,20 +24,46 @@ section{
 .container{
   position: relative;
     width: 1600px;
+    height: 2349px;
+}
+.container-portfolio{
+    position: relative;
+      width: 1600px;
+      height: 1880px;
 }
 .container-01{
   width: 1170px;
 }
 .container-03{
-  position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
+  width: 1600px;
+
+    display: inline-block;
+    border: 1px solid var(--color-border);
+    padding: 0;
+}
+.image-button{
+position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
 }
 .button-image{
+  list-style: none;
   display: flex;
-  
+}
+.image-portfolio-01{
+width: 1170px;
+  height: 1360px;
+list-style: none;
+display: inline-block;
+
+padding: 0;
+}
+.image-portfolio{
+  width: 370px;
+    height: 404px;
+  display: inline-block;
 }
 
 .list-01{
@@ -162,6 +189,7 @@ width: 200px;
 }
 
 .list-03{
+  font-style: normal;
     height: 81px;
   list-style: none;
   display: flex;
@@ -321,7 +349,6 @@ width: 200px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .box-1 {
   position: absolute;
   display: flex;
