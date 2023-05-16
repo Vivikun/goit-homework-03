@@ -27,44 +27,61 @@ section{
     height: 2349px;
 }
 .container-portfolio{
-    position: relative;
-      width: 1600px;
-      height: 1880px;
+  width: 1600px;
+  height: 80px;
+  margin: 0;
 }
 .container-01{
   width: 1170px;
 }
 .container-03{
   width: 1600px;
-
-    display: inline-block;
-    border: 1px solid var(--color-border);
-    padding: 0;
+  display: flex;
+  justify-content: center;
 }
-.image-button{
-position: absolute;
-  width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 174px;
+.button-box{
+    width: 1170px;
+    height: 1360px;
+border: 1px solid var(--color-border);
+display: flex;
+flex-direction: column;
+}
+.box-6{
+  position: absolute;
+    width: 1600px;
+    height: 252px;
+    top: 1628px;
+    background: var(--color-box);
 }
 .button-image{
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-top: 0;
+ margin-bottom: 50px;
+ padding: 0;
+}
+.button-image:nth-child(1n+0){
+  padding-right: 5px;
 }
 .image-portfolio-01{
 width: 1170px;
-  height: 1360px;
 list-style: none;
-display: inline-block;
-
 padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap-reverse;
+justify-content: space-between;
 }
+
 .image-portfolio{
   width: 370px;
     height: 404px;
-  display: inline-block;
+    display: inline-block;
 }
+
+
 
 .list-01{
   display: flex;
@@ -252,6 +269,15 @@ width: 200px;
 .logo-0:hover,
 .logo-0:focus {
   color: var(--color);
+}
+.box-0{
+  width: 1600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border: 1px;
+    list-style: none;
+    border-bottom: 1px solid var(--color-line);
 }
 .box{
   position: absolute;
