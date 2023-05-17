@@ -31,9 +31,6 @@ section{
   height: 80px;
   margin: 0;
 }
-.container-01{
-  width: 1170px;
-}
 .container-03{
   width: 1600px;
   display: flex;
@@ -47,7 +44,7 @@ display: flex;
 flex-direction: column;
 }
 .box-6{
-  position: absolute;
+
     width: 1600px;
     height: 252px;
     top: 1628px;
@@ -81,8 +78,6 @@ justify-content: space-between;
     display: inline-block;
 }
 
-
-
 .list-01{
   display: flex;
   list-style: none;
@@ -99,22 +94,14 @@ justify-content: space-between;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 50px;
+  margin-top: 0;
 }
 .box-3 {
-  position: absolute;
-  width: 1170px;
   height: 386px;
-  left: 215px;
-  top: 969px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0 215px 215px 0;
 }
 
 .button {
-width: 200px;
   height: 50px;
   font-family: 'Roboto';
   cursor: pointer;
@@ -124,13 +111,11 @@ width: 200px;
   /* identical to box height, or 188% */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   letter-spacing: 0.06em;
   background-color: var(--color);
   color: var(--color-text);
+  margin-left: 700px;
+  margin-top: 30px;
 }
 
 .button:hover,
@@ -271,17 +256,14 @@ width: 200px;
   color: var(--color);
 }
 .box-0{
-  width: 1600px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    border: 1px;
-    list-style: none;
-    border-bottom: 1px solid var(--color-line);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border: 1px;
+  list-style: none;
+  border-bottom: 1px solid var(--color-line);
 }
 .box{
-  position: absolute;
-    width: 1600px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -345,12 +327,11 @@ width: 200px;
 
 .box-4 {
   background-color: var(--color-image);
-    position: absolute;
-      width: 1600px;
-      height: 648px;
-      top: 1449px;
-      display: flex;
-      justify-content: center;
+  width: 1600px;
+  height: 648px;
+  top: 1449px;
+  display: flex;
+  justify-content: center;
 }
 .container-02{
   width: 1170px;
@@ -368,7 +349,6 @@ width: 200px;
 
 .box-5 {
   background-color: var(--color-box);
-  position: absolute;
     width: 1600px;
     height: 252px;
     top: 2097px;
@@ -376,36 +356,22 @@ width: 200px;
     padding-bottom: 60px;
 }
 .box-1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1600px;
   height: 600px;
-  top: 80px;
   background-color: var(--color-box);
 }
 
-.headline-button{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0;
-
-}
-
 .headline {
-  width: 696px;
-    height: 120px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text);
+  padding-left: 0;
+  margin: 106px 452px 0;
 }
 
 .headline-3 {
@@ -419,44 +385,38 @@ width: 200px;
 }
 
 .list {
+  height: 101px;
   list-style: none;
   display: flex;
   padding: 0;
-  align-items: center;
-  justify-content: space-between;
-
+  margin: 0;
 }
 
 .list-02 {
-  position: absolute;
-  left: 215px;
-  top: 774px;
-  width: 1170px;
-  height: 101px;
-  display: flex;
-  align-items: center;
+  margin: 0 215px;
+}
+.lorem{
+  padding-right: 30px;
 }
 
-.Lorem-ipsum-1 {
-  width: 270px;
-    height: 16px;
+.lorem-ipsum-1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
-.Lorem-ipsum-2 {
-  width: 270px;
-    height: 75px;
+.lorem-ipsum-2 {
   color: var(--color-back);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .name {
@@ -473,4 +433,8 @@ width: 200px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.headline-button{
+  padding: 0;
+  margin: 0;
 }
