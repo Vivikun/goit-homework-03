@@ -48,7 +48,7 @@ address{
   font-style: normal;
 }
 
-.section {
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -58,6 +58,7 @@ address{
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .list {
   list-style: none;
 }
@@ -77,9 +78,11 @@ address{
   gap: 50px;
   margin-left: auto;
 }
+
 .wrap{
   margin-left: 93px;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -129,8 +132,9 @@ address{
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.box{
 
+.box{
+  border-bottom: 1px solid var(--color-line);
 }
 
 .headline {
@@ -147,6 +151,7 @@ address{
   padding-right: 225px;
   margin-bottom: 30px;
 }
+
 .button {
   font-family: 'Roboto';
   cursor: pointer;
@@ -158,8 +163,12 @@ address{
   letter-spacing: 0.06em;
   background-color: var(--color);
   color: var(--color-text);
+  margin-left: 485px;
+  padding-left: 42px;
+  padding-right: 41px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
 
 .button:hover,
 .button:focus {
@@ -168,16 +177,53 @@ address{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.list-lorem{
+  display: flex;
+  gap: 30px;
+}
 
+.Lorem-ipsum-1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
+.Lorem-ipsum-2 {
+  color: var(--color-back);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
 
+.headline-2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 
+.hedline-image{
+  background-color: var(--color-image);
+  padding-top: 0;
+}
 
+.image-1{
+  padding-right: 30px;
+  width: 370px;
+  height: 294px;
+}
+.image-2{
+  padding-right: 30px;
+}
 
-
-
-
-
+.nick-name{
+  display: flex;
+}
 
 
 
@@ -222,7 +268,6 @@ address{
   letter-spacing: 0.03em;
   color: var(--color-back);
 }
-
 
 .text {
   font-size: 18px;
@@ -288,22 +333,8 @@ address{
 }
 {<<--tutaj układ bloków>-->><<--tutaj układ bloków>-->>}
 
-.hedline-images {
-  background-color: var(--color-image);
-}
-
 .footer-box {
   background-color: var(--color-box);
-}
-
-
-
-.headline-2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .headline-3 {
@@ -311,22 +342,6 @@ address{
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.Lorem-ipsum-1 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.Lorem-ipsum-2 {
-  color: var(--color-back);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
