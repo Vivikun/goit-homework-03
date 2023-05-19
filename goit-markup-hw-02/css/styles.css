@@ -1,7 +1,7 @@
 /* WebStudio */
 body {
   color: #212121;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -44,7 +44,7 @@ ol {
 a {
   text-decoration: none;
 }
-address{
+address {
   font-style: normal;
 }
 
@@ -63,24 +63,24 @@ section {
   list-style: none;
 }
 
-.hero{
+.hero {
   display: flex;
   align-items: center;
 }
-.link-nav{
+.link-nav {
   width: 254px;
   display: flex;
   gap: 46px;
 }
 
-.list-mail{
+.list-mail {
   display: flex;
   gap: 50px;
   margin-left: auto;
   padding-right: 30px;
 }
 
-.wrap{
+.wrap {
   margin-left: 93px;
 }
 
@@ -101,7 +101,7 @@ section {
 .logo {
   text-decoration: none;
   color: inherit;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -134,7 +134,7 @@ section {
   padding-bottom: 200px;
 }
 
-.box{
+.box {
   border-bottom: 1px solid var(--color-line);
 }
 
@@ -154,7 +154,7 @@ section {
 }
 
 .button {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   cursor: pointer;
   font-size: 16px;
   line-height: 1.9;
@@ -178,7 +178,7 @@ section {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.list-lorem{
+.list-lorem {
   display: flex;
   gap: 30px;
   padding-right: 30px;
@@ -204,18 +204,18 @@ section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  
+
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   padding-left: 409px;
   padding-right: 397px;
 }
 
-.hedline-image{
+.hedline-image {
   padding-top: 0;
 }
 
-.nick-name{
+.nick-name {
   display: flex;
   gap: 30px;
   padding-right: 30px;
@@ -249,23 +249,28 @@ section {
   padding-bottom: 30px;
 }
 
-.image-4{
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.image-5{
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.image-6{box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.image-4 {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.image-7{
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+.image-5 {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.image-6 {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.image-7 {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .hedline-images {
@@ -294,7 +299,7 @@ section {
   color: var(--color);
 }
 
-.mail-1{
+.mail-1 {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -306,12 +311,12 @@ section {
 }
 
 .mail-1:hover,
-.mail-1:focus{
+.mail-1:focus {
   color: var(--color);
 }
 
-.logo-0{
-  font-family: 'Raleway';
+.logo-0 {
+  font-family: "Raleway";
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
@@ -322,16 +327,16 @@ section {
 }
 
 .logo-0:hover,
-.logo-0:focus{
+.logo-0:focus {
   color: var(--color);
 }
 
-.list-footer{
+.list-footer {
   margin-top: 20px;
 }
 
 .button-1 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -348,7 +353,8 @@ section {
 .button-1:focus {
   background-color: var(--color);
   color: var(--color-text);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -386,12 +392,12 @@ section {
   color: var(--color);
 }
 
-.buttons{
+.buttons {
   display: flex;
   gap: 8px;
   padding-left: 295px;
 }
-.basic-image{
+.basic-image {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
