@@ -77,6 +77,7 @@ section {
   display: flex;
   gap: 50px;
   margin-left: auto;
+  padding-right: 30px;
 }
 
 .wrap{
@@ -340,6 +341,7 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
   background: var(--color-image);
+  padding: 6px 22px;
 }
 
 .button-1:hover,
@@ -382,4 +384,17 @@ section {
 
 .web {
   color: var(--color);
+}
+
+.buttons{
+  display: flex;
+  gap: 8px;
+  padding-left: 295px;
+}
+
+.basic-image{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
 }
