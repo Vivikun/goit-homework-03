@@ -157,6 +157,7 @@ section {
 .button {
   font-family: "Roboto";
   cursor: pointer;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   /* identical to box height, or 188% */
@@ -165,11 +166,13 @@ section {
   letter-spacing: 0.06em;
   background-color: var(--color);
   color: var(--color-text);
-  margin-left: 485px;
+  display: block;
+  margin: 0 auto;
   padding-left: 42px;
   padding-right: 41px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: none;
 }
 
 .button:hover,
