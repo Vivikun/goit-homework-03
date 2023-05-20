@@ -77,7 +77,6 @@ section {
   display: flex;
   gap: 50px;
   margin-left: auto;
-  padding-right: 30px;
 }
 
 .wrap {
@@ -143,14 +142,16 @@ section {
   font-size: 44px;
   line-height: 1.4;
   /* or 136% */
-  width: 696px;
+  max-width: 696px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text);
-  padding-left: 237px;
-  padding-right: 225px;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 30px;
+  border: none;
+  font-weight: 700;
 }
 
 .button {
@@ -181,7 +182,6 @@ section {
 .list-lorem {
   display: flex;
   gap: 30px;
-  padding-right: 30px;
 }
 
 .Lorem-ipsum-1 {
@@ -204,11 +204,9 @@ section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  padding-left: 409px;
-  padding-right: 397px;
+  text-align: center;
 }
 
 .hedline-image {
@@ -218,7 +216,7 @@ section {
 .nick-name {
   display: flex;
   gap: 30px;
-  padding-right: 30px;
+  background-color: var(--color-text);
 }
 
 .headline-3 {
@@ -236,8 +234,7 @@ section {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .nickname {
@@ -246,7 +243,11 @@ section {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+}
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .image-4 {
@@ -275,7 +276,6 @@ section {
 
 .hedline-images {
   background-color: var(--color-image);
-  padding-top: 0;
 }
 
 .footer-box {
@@ -307,7 +307,6 @@ section {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--color-mail);
-  padding-top: 9px;
 }
 
 .mail-1:hover,
@@ -331,8 +330,14 @@ section {
   color: var(--color);
 }
 
-.list-footer {
+.address-footer {
   margin-top: 20px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .button-1 {
@@ -363,8 +368,8 @@ section {
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .basic-text-1 {
@@ -395,11 +400,25 @@ section {
 .buttons {
   display: flex;
   gap: 8px;
-  padding-left: 295px;
+  justify-content: center;
+  border: 0;
 }
 .basic-image {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
+}
+
+.subtext {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 0;
+}
+
+.item {
+  max-width: 370px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }

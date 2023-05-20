@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,9 +46,7 @@
       <section class="hedline-button">
         <div class="container">
           <h1 class="headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <div class="container">
-            <button class="button button-01" type="button">Zamów usługę</button>
-          </div>
+          <button class="button button-01" type="button">Zamów usługę</button>
         </div>
       </section>
       <section>
@@ -123,8 +125,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">John Doe</h3>
-              <p class="nickname">Product Designer</p>
+              <div class="description">
+                <h3 class="name">John Doe</h3>
+                <p class="nickname">Product Designer</p>
+              </div>
             </li>
             <li class="image-5">
               <img
@@ -133,8 +137,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">John Doe</h3>
-              <p class="nickname">Frontend Developer</p>
+              <div class="description">
+                <h3 class="name">John Doe</h3>
+                <p class="nickname">Frontend Developer</p>
+              </div>
             </li>
             <li class="image-6">
               <img
@@ -143,8 +149,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">John Doe</h3>
-              <p class="nickname">Marketing</p>
+              <div class="description">
+                <h3 class="name">John Doe</h3>
+                <p class="nickname">Marketing</p>
+              </div>
             </li>
             <li class="image-7">
               <img
@@ -153,8 +161,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">John Doe</h3>
-              <p class="nickname">Ul Designer</p>
+              <div class="description">
+                <h3 class="name">John Doe</h3>
+                <p class="nickname">Ul Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -165,9 +175,9 @@
         <a class="logo-0" href="./index.html"
           ><span class="web">Web</span>Studio</a
         >
-        <address class="list-footer">
-          <ul class="list">
-            <li>
+        <address class="address-footer">
+          <ul class="footer-list">
+            <li class="footer-item">
               <a
                 class="link-0"
                 href="https://goo.gl/maps/QKMNd5w4e42VT7PU7"
@@ -175,10 +185,12 @@
                 >m.Warszawa, AlejeJerozolimskie 21</a
               >
             </li>
-            <li>
+            <li class="footer-item">
               <a class="mail-1" href="info@example.com">info@example.com</a>
             </li>
-            <li><a class="mail-1" href="+48111111111">+48 111 111 111</a></li>
+            <li class="footer-item">
+              <a class="mail-1" href="+48111111111">+48 111 111 111</a>
+            </li>
           </ul>
         </address>
       </div>
