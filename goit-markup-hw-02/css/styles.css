@@ -319,9 +319,11 @@ section {
 .address-footer {
   margin-top: 20px;
 }
+
 .footer-list {
   list-style: none;
 }
+
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
